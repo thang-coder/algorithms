@@ -1,2 +1,5 @@
-# Algorithms
-Website about algorithms
+# Scope
+
+## Data Structures:
+
+- Arrays and Strings
