@@ -10,3 +10,5 @@
 ## Concepts & Algorithms:
 
 - Bit Manipulations
+- Recursion
+- Sorting and Searching
