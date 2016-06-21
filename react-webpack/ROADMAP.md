@@ -15,8 +15,11 @@ $ yo react-webpack
 ? Enable postcss? No
 ```
 
+- Style scaffolded by [Material-UI](http://www.material-ui.com)
+
 ### Future
 
 #### Additions
 
-- Style scaffolded by [Material-UI](http://www.material-ui.com/#/)
+- Pull raw content from GitHub
+- Tranform markdowned content
