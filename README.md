@@ -6,7 +6,7 @@
 - Linked Lists
 - Stacks and Queues
 - Trees and Graphs
- 
+
 ## Concepts & Algorithms:
 
 - Bit Manipulations
