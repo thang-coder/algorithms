@@ -1,5 +1,9 @@
-require('normalize.css/normalize.css');
-require('styles/App.css');
+// require('normalize.css/normalize.css');
+// require('styles/App.css');
+
+import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 import React from 'react';
 
@@ -8,10 +12,13 @@ let algorithmsImage = require('../images/algorithms.svg');
 class AppComponent extends React.Component {
   render() {
     return (
-      <div className="index">
-        <img src={algorithmsImage} alt="Algorithms" />
-        <div className="notice">Clean implementations of popular algorithms</div>
-      </div>
+      <MuiThemeProvider muiTheme={getMuiTheme(lightBaseTheme)}>
+        <div className='index'>
+          <img src={algorithmsImage} alt="Algorithms" />
+          <div className='notice'>Clean implementations of popular algorithms</div>
+        </div>
+      </MuiThemeProvider>
+
     );
   }
 }
