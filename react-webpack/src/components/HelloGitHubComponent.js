@@ -6,14 +6,22 @@ require('styles//HelloGitHub.css');
 
 class HelloGitHubComponent extends React.Component {
 
-  getInitialState() {
-    
+  // constructor(props) {
+  //   super(props);
+  // }
+
+  constructor() {
+    super();
+
+    this.state = {
+      contentGitHub: 'No Data'
+    };
   }
 
   render() {
     return (
-      <div className="hellogithub-component">
-        Please edit src/components///HelloGitHubComponent.js to update this component!
+      <div className='hellogithub-component'>
+        Data: {this.state.contentGitHub}
       </div>
     );
   }
