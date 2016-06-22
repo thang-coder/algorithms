@@ -15,7 +15,7 @@ class AppComponent extends React.Component {
     return (
       <MuiThemeProvider muiTheme={getMuiTheme(lightBaseTheme)}>
         <div className='index'>
-          <img src={algorithmsImage} alt="Algorithms" />
+          <imgi src={algorithmsImage} alt="Algorithms" />
           <div className='notice'>Clean implementations of popular algorithms</div>
           <HelloGitHubComponent />
         </div>
