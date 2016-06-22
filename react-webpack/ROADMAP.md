@@ -2,6 +2,12 @@
 
 The roadmap is a living document, and it is likely that priorities will change, but the list below should give some indication of our plans for the next major release, and for the future.
 
+### Future
+
+#### Additions
+
+- Tranform markdown content
+
 ### 0.0.1 (Current)
 
 #### Additions
@@ -17,9 +23,5 @@ $ yo react-webpack
 
 - Style scaffolded by [Material-UI](http://www.material-ui.com)
 
-### Future
+- AJAX requests made available by [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)
 
-#### Additions
-
-- Pull raw content from GitHub
-- Tranform markdowned content
