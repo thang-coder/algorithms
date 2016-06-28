@@ -1,6 +1,7 @@
 'use strict';
 
 import React from 'react';
+import GitHub from '../adapters/GitHub';
 
 require('es6-promise').polyfill();
 require('isomorphic-fetch');
